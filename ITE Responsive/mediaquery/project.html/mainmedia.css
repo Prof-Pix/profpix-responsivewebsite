@@ -1,0 +1,111 @@
+@media (max-width: 1440px) {
+
+    .title-slogan-section {
+        gap: 12vw;
+    
+    }
+
+    .title-slogan-section div:nth-child(1) h1 {
+        font-size: 13vw;
+    }
+    
+    .title-slogan-section div:nth-child(1) p {
+            font-size: 1.4dvw;
+    }
+
+    .shopnow-button {
+        font-size: 1.1dvw;
+    }
+}
+
+@media (max-width: 720px) {
+    .our-collection p:nth-child(2) {
+        line-height: 4dvw;
+        font-size: 1.6dvw;
+    }
+}
+
+
+@media (max-width: 840px) {
+
+    .title-slogan-section {
+        gap: 18vw;
+    
+    }
+
+    .title-slogan-section div:nth-child(1) h1 {
+        font-size: 15vw;
+    }
+    
+    .title-slogan-section div:nth-child(1) p {
+            font-size: 1.8dvw;
+    }
+
+    .shopnow-button {
+        font-size: 1.5dvw;
+    }
+}
+
+@media (max-width: 720px) {
+
+    .our-collection p:nth-child(1) {
+        font-size: 3.5dvw;
+    }
+
+    .our-collection p:nth-child(2) {
+        width: 75vw;
+        line-height: 4dvw;
+        font-size: 1.7dvw;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .our-collection p:nth-child(1) {
+        font-size: 3dvw;
+    }
+
+    .our-collection p:nth-child(2) {
+        line-height: 5dvw;
+        font-size: 2dvw;
+    }
+}
+
+
+@media (max-width: 550px) {
+
+    .title-slogan-section {
+        gap: 22vw;
+    
+    }
+
+    .title-slogan-section div:nth-child(1) h1 {
+        font-size: 16vw;
+    }
+    
+    .title-slogan-section div:nth-child(1) p {
+            font-size: 2dvw;
+    }
+
+    .shopnow-button {
+        font-size: 1.8dvw;
+    }
+
+    .our-collection p:nth-child(1) {
+        font-size: 3.5dvw;
+    }
+
+}
+
+@media (max-width: 450px) {
+
+    .our-collection p:nth-child(1) {
+        font-size: 3.2dvw;
+    }
+
+    .our-collection p:nth-child(2) {
+        line-height: 4dvw;
+        font-size: 5dvw;
+    }
+
+}

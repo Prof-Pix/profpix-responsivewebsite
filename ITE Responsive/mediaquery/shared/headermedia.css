@@ -1,0 +1,111 @@
+@media (max-width: 1100px) {
+    header nav ul li a {
+        font-size: 1.8dvw;
+    }
+}
+
+@media (max-width: 720px) {
+    .our-collection p:nth-child(2) {
+        line-height: 4dvw;
+        font-size: 1.6dvw;
+    }
+}
+
+@media (max-width: 1000px) {
+    header {
+        padding: 0 2.5em;
+    }
+}
+
+@media (max-width: 950px) {
+    header {
+        padding: 0 1.5em;
+    }
+
+    header nav ul li a {
+        font-size: 2dvw;
+    }
+}
+
+@media (max-width: 750px) {
+    header nav ul li a {
+        font-size: 2.2dvw;
+    }
+}
+
+@media (max-width: 700px) {
+    .hamburger-menu {
+        display: block;
+        cursor: pointer;
+        transition: transform 0.3s;
+    }
+
+    .hamburger-menu.active {
+        transform: rotate(90deg);
+    }
+
+    .hamburger-menu.notactive {
+        transform: rotate(-90deg);
+    }
+
+
+    .line {
+        width: 1.5em;
+        height: 0.3em;
+        margin: 0.2em 0em;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    nav {
+        
+        height: 18em;
+        width: 100vw;
+        position: absolute;
+        top: 14.9dvh;
+        left: 0;
+        right: 0;
+        background-color: #0f172a;
+        
+        display: none;
+    }
+
+    .nav-bar.active {
+        display: block; 
+    }
+
+    header nav ul {
+        display: block;
+        width: fit-content;
+        text-align: center;
+        margin: 2em auto;
+    }
+
+    header nav ul li {
+        margin-bottom: 2em;
+    }
+
+
+}
+
+
+
+/*For Picture*/
+@media (max-width: 600px) {
+    .logo-container img {
+        width: 22dvw;
+    }
+
+    header nav ul li a {
+        font-size: 2.5dvw;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    header nav ul li a {
+        font-size: 3dvw;
+    }
+
+}

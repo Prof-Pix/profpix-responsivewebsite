@@ -1,0 +1,14 @@
+@media (max-width: 1010px) {
+    .footer-div {
+        width: 50%;
+    }
+    
+}
+
+@media (max-width: 600px) {
+    .footer-div {
+        width: 100%;
+    }
+
+    
+}
