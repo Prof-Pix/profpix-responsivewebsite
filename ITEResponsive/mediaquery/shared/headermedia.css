@@ -1,0 +1,114 @@
+@media (max-width: 1000px) {
+
+    .hamburger-menu {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger-submenu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .hamburger-container {
+        transition: transform 0.3s;
+        margin-left: 0.5em;
+    }
+
+    .hamburger-container.active {
+        transform: rotate(90deg);
+    }
+
+    .hamburger-container.notactive {
+        transform: rotate(-90deg);
+    }
+
+    #my-cart {
+        display: none;
+    }
+
+
+    .line {
+        width: 1.5em;
+        height: 0.3em;
+        margin: 0.2em 0em;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    nav {
+        
+        height: 18em;
+        width: 100vw;
+        position: absolute;
+        top: 14.9dvh;
+        left: 0;
+        right: 0;
+        background-color: #0f172a;
+        
+        display: none;
+    }
+
+    .nav-bar.active {
+        display: block; 
+    }
+
+    header nav ul {
+        display: block;
+        width: fit-content;
+        text-align: center;
+        margin: 2em auto;
+    }
+
+    header nav ul li {
+        margin-bottom: 2em;
+    }
+
+    /*Our Shop and My Purchases*/
+
+    .ourshop-option-container, .mypurchases-option-container {
+        display: none;
+    }
+
+    .ourshop-option {
+        display: block;
+    }
+
+    /*For Contact and About*/
+
+    #headeroption-appearMedia {
+        display: block;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 0 2em;
+    }
+
+    .hamburger-menu-option {
+        display: none;
+    }
+
+    nav {
+        
+        height: 25em;
+    }
+
+    #my-cart, #my-order {
+        display: block;
+    }
+}
+
+@media (max-width: 350px) {
+
+    header {
+        padding: 0 1em;
+    }
+
+}

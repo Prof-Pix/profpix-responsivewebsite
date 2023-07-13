@@ -1,0 +1,176 @@
+main {
+    padding-bottom: 4em;
+    margin: 0 auto;
+}
+
+.webdeveloper-title {
+    text-align: center;
+    margin: 1em 0;
+
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-family: "Roboto", sans-serif;
+    font-size: 3rem;
+
+}
+
+.webdeveloper-maincontainer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2em;
+    width: 50em;
+    margin: 0 auto;
+    padding: 0 2em;
+    max-width: 700px;
+}
+
+.webdeveloper-details-container {
+    display: grid;
+    grid-template-columns: 12em 1fr;
+    column-gap: 1em;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.webdeveloper-picture {
+    padding: 1em;
+}
+
+.webdeveloper-picture img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.webdeveloper-fulldetails {
+    padding: 1em;
+}
+
+.webdev-name {
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.7rem;
+    margin-bottom: 0.5em;
+}
+
+.webdeveloper-program {
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 1em;
+}
+
+.webdev-school {
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 0.1em;
+}
+
+.webdeveloper-skills-title {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0.3em;
+    margin-top: 1em;
+}
+
+.webdeveloper-skillset {
+    display: grid;
+    grid-template-columns: 4em 4em 4em;
+}
+
+@media (max-width: 700px) {
+
+    .webdeveloper-maincontainer {
+        width: 35em
+    }
+
+    .webdeveloper-picture {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .webdeveloper-picture img {
+        max-width: 80%;
+        max-height: 80%;
+    }
+
+    .webdeveloper-fulldetails {
+        padding: 0 2em 2em; 
+    } 
+
+    .webdeveloper-details-container {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .webdeveloper-skills-title {
+        margin-bottom: 0.5em;
+    }
+    
+
+}
+
+@media (max-width: 560px) {
+
+    .webdeveloper-title {
+        margin: 0.5em 0;
+        font-size: 2.5rem;
+    }
+
+    .webdeveloper-maincontainer {
+        width: 30em
+    }
+
+    .webdeveloper-picture {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .webdeveloper-picture img {
+        max-width: 85%;
+        max-height: 85%;
+    }
+
+    .webdeveloper-fulldetails {
+        padding: 0 2em 2em; 
+    } 
+
+    .webdeveloper-details-container {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .webdeveloper-skills-title {
+        margin-bottom: 0.5em;
+    }
+    
+}
+
+@media (max-width: 500px) {
+
+    .webdeveloper-maincontainer {
+        width: 25em
+    }
+
+    .webdev-name {
+        font-size: 1.3rem;
+    }
+    
+    .webdeveloper-program {
+        font-size: 0.9rem;
+        margin-top: 0.4em;
+    }
+
+    .webdev-school {
+        font-size: 0.9rem;
+    }
+
+    
+}
+
+@media (max-width: 400px) {
+    .webdeveloper-title {
+        font-size: 1.6rem;
+    }
+
+    .webdeveloper-maincontainer {
+        padding: 0 1em;
+    }
+}

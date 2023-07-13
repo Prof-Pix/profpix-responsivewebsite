@@ -1,0 +1,357 @@
+main {
+    margin-bottom: 2em;
+    max-width: 100em;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 85dvh;
+}
+
+.checkout-title {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    margin: 1em auto;
+    font-size: 1.5rem;
+}
+
+.reviewyourorder-title {
+    margin-bottom: 0.5em;
+    margin-left: 2.4em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+}
+
+.additional-in-review {
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.additional-in-review a {
+    display: inline;
+    font-size: 0.9rem;
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    background-color: #082f49;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    transition: all 0.15s;
+}
+
+.additional-in-review div:nth-child(2) {
+    margin-top: 1em;
+}
+
+.additional-in-review a:hover {
+    background-color: #21577a;
+}
+
+.order-summary {
+    display: block;
+    min-width: 17em;
+    max-height: 21em;
+    width: 25em;
+    padding: 1.5em;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+}
+
+.order-details-main {
+    display: grid;
+    grid-template-columns: 1fr 25em;
+    column-gap: 1em;
+    padding: 0 3em;
+}
+
+
+.order-summary-title {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.items-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.items-details div {
+    margin: 0.4em 0;
+}
+
+/*Under Item and Shipping*/
+
+.check-items-shipping-details {
+    text-align: right;
+    border-bottom-style: solid;
+    border-width: 1px;
+    padding-bottom: 0.2em;
+}
+
+/*Under Tax Details*/
+
+.check-tax-details {
+    text-align: right;
+}
+
+.tax-details {
+    border-bottom-style: solid;
+    border-width: 1px;
+    padding-bottom: 0.2em;
+    
+}
+
+.order-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.total-order {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.order-button-container button {
+    width: 100%;
+    padding: 0.8em 0;
+    margin: 1em auto;
+    cursor: pointer;
+}
+
+.order-button-container a {
+    width: 100%;
+}
+
+
+.itemincart-details {
+    display: grid;
+    grid-template-columns: 10em repeat(2, minmax(0, 1fr));
+}
+
+@media (max-width: 1120px) {
+
+    main {
+        max-width: 50em;
+    }
+
+    .order-details-main-left {
+        order: 2;
+    }
+    .order-summary {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .order-details-main {
+        grid-template-columns: 1fr;
+        row-gap: 1em;
+    }
+    
+}
+
+@media (max-width: 735px) {
+
+    .itemincart-details {
+        grid-template-columns: 10em minmax(0, 1fr);
+        grid-template-rows: auto;
+    }
+
+    .itemincart-rightside {
+        margin-top: 1em;
+        padding-top: 1em;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        border: solid 0.1px;
+    }
+    
+}
+
+
+.itemincart-imagecontainer img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+}
+
+.itemincart {
+    border-style: solid;
+    border-width: 1px;
+    padding: 1.5em;
+    border-radius: 5px;
+    margin-bottom: 2em;
+}
+
+.itemincart-imagecontainer {
+    margin-right: 1em;
+}
+
+.itemincart-name, .itemincart-price {
+    margin-bottom: 1em;
+}
+
+.itemincart-fulldetails {
+    margin-right: 2em;
+}
+
+.itemincart-name {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    margin-right: 0.3em;
+}
+
+.itemincart-name p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; /* Number of lines to display */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+    
+
+.itemincart-price {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.itemincart-quantity {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-family: "Roboto", sans-serif;
+    align-items: center;
+}
+
+.item-quantity {
+    font-weight: bold;
+    display: inline;
+}
+
+.quantity-container {
+    display: flex;
+    align-items: center;
+}
+
+.itemincart-deliverydate {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    margin: 1em 0;
+    font-size: 1.1rem;
+}
+
+.itemincart-quantity-update {
+    margin-right: 1em;
+}
+
+.shippingoption {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.itemincart-rightside {
+    padding-left: 1em;
+    border-left-style: solid;
+    border-left-width: 1px;
+}
+
+
+.itemincart-choosing-title{
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.shippinginput-button {
+    margin-right: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shippinginput-button input{
+    cursor: pointer;
+}
+
+.shippinginput-button-details {
+    font-family: "Roboto", sans-serif;
+}
+
+/*For Delete Button*/
+
+.update-quantity-container {
+    display: none;
+    margin-top: 0.5em;
+}
+
+
+.updatedelete-button-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5em;
+}
+
+.js-update-button, .js-delete-button {
+    border-style: none;
+    padding: 0.2em 0.5em;
+    background-color: #020617;
+    color: white;
+    border-radius: 3px;
+    margin: 0;
+    cursor: pointer;
+    margin-bottom: 1em;
+}
+
+#eks-button {
+    color: red;
+    font-weight: bold;
+}
+
+.shipping-radio-button {
+    background-color: blue;
+}
+
+@media (max-width: 400px) {
+
+    .order-details-main {
+        padding: 0 0.5em;
+    }
+
+    .reviewyourorder-title {
+        margin-left: 1.2em;
+    }
+
+    .js-update-button, .js-delete-button {
+        font-size: 0.7rem;
+    }
+
+    .itemincart {
+        padding: 1em;
+ 
+    }
+
+}
+
+@media (max-width: 460px) {
+
+    .order-details-main {
+        padding: 0 1em;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    .reviewyourorder-title {
+        margin-left: 1.2em;
+    }
+
+    .js-update-button, .js-delete-button {
+        font-size: 0.7rem;
+    }
+
+    .quantity-container {
+        font-size: 0.95rem;
+    }
+
+}

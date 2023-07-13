@@ -1,0 +1,101 @@
+.title-slogan-section {
+    height: 85dvh;
+    
+    background-image: url("../images/background/pexels-stephan-seeber-1054218.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+
+
+    flex-direction: column;
+    gap: 10.5em;
+
+}
+
+.title-slogan-section div:nth-child(1) {
+    margin: 0 auto;
+}
+
+.title-slogan-section div:nth-child(1) h1 {
+    text-align: center;
+    
+    font-family: 'Lato', sans-serif;
+    font-size: 13vw;
+    letter-spacing: 0.5rem;
+
+}
+
+.title-slogan-section div:nth-child(1) p {
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.5vw;
+}
+
+.title-slogan-section div:nth-child(2) {
+    margin: 0 auto;
+}
+
+.shopnow-button {
+    font-family: 'Montserrat', sans-serif;
+    border-style: none;
+    padding: 1em 2.5em;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-size: 1.2dvw;
+    transition: all 0.2s;
+}
+
+.shopnow-button:hover {
+    color: white;
+    background-color: black;
+    transform: translateY(-0.5em);
+}
+
+.our-collection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding-top: 2.5em;
+    padding-bottom: 4em;
+}
+
+.our-collection p:nth-child(1) {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.7vw;
+    border-style: solid;
+    border-width: 1px;
+    padding: 0.25em 0.75em;
+    margin-top: 1em;
+    letter-spacing: 0.3rem;
+    transition: background-color 0.15s, color 0.15s;
+}
+
+.our-collection p:nth-child(1):hover {
+    background-color: black;
+    color: white;
+}
+
+.our-collection p:nth-child(2) {
+    line-height: 3vw;
+    width: 71ch;
+    margin-top: 3em;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    font-size: 1.3vw;
+}
+
+.our-collection p:nth-child(2) a{
+    text-decoration: underline;
+    color: black;
+
+}
+
+.span-unknown {
+    font-weight: bold;
+}

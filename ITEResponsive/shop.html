@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shop</title>
+
+    <!--For Responsive Design Purposes-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--SHARED STYLES-->
+        <!--CSS Shared-->
+        <link rel = "stylesheet" href = "styles/shared/body.css">
+        <link rel = "stylesheet" href = "styles/shared/header.css">
+        <link rel = "stylesheet" href = "styles/shared/footer.css">
+
+        <!--Media Query Shared-->
+        <link rel = "stylesheet" href = "mediaquery/shared/headermedia.css">
+        <link rel = "stylesheet" href = "mediaquery/shared/footermedia.css">
+
+    <!--CSS For Shop HTML-->
+        <link rel = "stylesheet" href = "styles/shop.html/products.css">
+
+    <!--CSS for Mediaquery for Shop HTML-->
+        <link rel = "stylesheet" href = "mediaquery/shop.html/productsmedia.css">
+
+        <!--For Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&family=Lato:wght@700;900&family=Montserrat:wght@100;400&family=Poppins:wght@300;500;700&family=Raleway:wght@100;300;400;700&family=Roboto:wght@100;500;700&display=swap" rel="stylesheet">
+
+    
+    <!--For Logo-->
+        <script src="https://kit.fontawesome.com/ea3bfd0f41.js" crossorigin="anonymous"></script>
+
+    </head>
+
+    <body>
+
+        <header>
+            <div class = "logo-container">
+                <img src = ".//images/logo/unknown-logo.png" alt = "unknown-logo">
+            </div>
+
+            <div class = "hamburger-menu">
+                <div class="hamburger-submenu">
+                    <a href = "checkout.html" class = "header-option hamburger-menu-option"  ><i class="fa-solid fa-cart-shopping fa-lg">&nbsp;&nbsp;</i>My Cart</a>
+                    <a href = "order.html" class = "header-option hamburger-menu-option"><i class="fa-solid fa-truck"></i>&nbsp;&nbsp; Orders</a>
+                    <div class = "hamburger-container">
+                        <div class = "line"></div>
+                        <div class = "line"></div>
+                        <div class = "line"></div>
+                    </div>
+                </div>
+            </div>
+
+            <nav class = "nav-bar">
+                <ul>
+                    <li>
+                        <a href = "project.html" class = "header-option"><i class="fa-solid fa-house-user"></i>&nbsp; Home</a>
+                    </li>
+
+                    <li>
+                        <a href = "shop.html" class = "header-option"><i class="fa-solid fa-shirt"></i>&nbsp; Products</a>
+                    </li>
+
+                    <li>
+                        <a href = "contact.html" class = "header-option ourshop-option dropdown-option" ><i class="fa-solid fa-envelope"></i>&nbsp;&nbsp; Contact Us</a>
+                    </li>
+
+                    <li>
+                        <a href = "about.html" class = "header-option ourshop-option dropdown-option" > <i class="fa-solid fa-question"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;About</a>
+                    </li>
+
+                    <li>
+                        <a href = "checkout.html" id = "my-cart" class = "header-option mypurchases-option dropdown-option"><i class="fa-solid fa-cart-shopping"></i>&nbsp;&nbsp;&nbsp;My Cart</a>
+                    </li>
+
+                    <li>
+                        <a href = "order.html" id = "my-order" class = "header-option mypurchases-option dropdown-option"><i class="fa-solid fa-truck"></i>&nbsp;&nbsp; Orders</a>
+                    </li>
+
+                    <!--Hoverable DropDown-->
+                    <li class = "ourshop-option-container">
+                        <a class = "header-option"><i class="fa-solid fa-store"></i>&nbsp; Our Shop</a>
+                        <div class = "ourshop-dropdown">  
+                            <a href = "contact.html" class = "header-option ourshop-option"><i class="fa-solid fa-envelope"></i>&nbsp;&nbsp; Contact Us</a>
+
+                            <a href = "about.html" class = "header-option ourshop-option"> <i class="fa-solid fa-question"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;About</a>
+                        </div>
+                    </li>
+
+                    <li class = "mypurchases-option-container">
+                        <a class = "header-option"><i class="fa-solid fa-dollar-sign"></i>&nbsp; My Purchases</a>
+                        <div class = "mypurchases-dropdown">  
+                            <a href = "checkout.html" class = "header-option mypurchases-option"><i class="fa-solid fa-cart-shopping"></i>&nbsp;&nbsp;&nbsp;My Cart</a>
+
+                            <a href = "order.html" class = "header-option mypurchases-option"><i class="fa-solid fa-truck"></i>&nbsp;&nbsp; Orders</a>
+                        </div>
+                    </li>
+
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class = "product-maincontainer">
+
+                
+
+            </section>
+        </main>
+        
+        <footer>
+            <div class = "container">
+                <div class = "row">
+                    <div class = "footer-div">
+                        <h3>Company</h3>
+                        <ul>
+                            <li>
+                                <a href = "about.html">About Us</a>
+                            </li>
+                                
+                            <li>
+                                <a href = "webdevelopers.html">Web Developers</a>
+                            </li>
+
+                            <li>
+                                <a href = "contact.html">Contact Us</a>
+                            </li>
+
+                            <li>
+                                <a href = "shop.html">Products</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class = "footer-div">
+                        <h3>Get Help</h3>
+                        <ul>
+                            <li>
+                                <a href = "gethelp.html">FAQS</a>
+                            </li>
+                                
+                            <li>
+                                <a href = "gethelp.html">Shipping</a>
+                            </li>
+
+                            <li>
+                                <a href = "gethelp.html">Payment Options</a>
+                            </li>
+
+                            <li>
+                                <a href = "gethelp.html">Customer Support</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class = "footer-div social-links">
+                        <h3>Follow Us!</h3>
+                        <a href = "https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f fa-lg"></i></a>
+                        <a href = "https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter fa-lg"></i></a>
+                        <a href = "https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                        <a href = "https://www.tiktok.com/" target="_blank"><i class="fa-brands fa-tiktok fa-lg"></i></a>
+                    </div>
+
+                    <div class = "footer-div get-notified">
+                        <h3>Get Notified!</h3>
+                        <p>"Be the first to know! Get notified about exclusive updates and special offers. Join now!"</p>
+
+                        <input type = "email" placeholder = "Enter your email">
+                        <button>Subscribe</button>
+                        
+                    </div>
+
+                </div>
+                
+            </div>
+        </footer>
+
+    <!--JS Shared-->
+        <script src = "scripts/shared/hamburger.js"></script>
+        <script src = "scripts/shared/headeractive.js"></script>
+
+        <script src = "scripts/products.js"></script>
+    </body>
+</html>

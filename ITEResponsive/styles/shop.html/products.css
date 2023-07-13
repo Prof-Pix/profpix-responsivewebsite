@@ -1,0 +1,182 @@
+main {
+    min-height: 85dvh;
+}
+
+.product-maincontainer {
+    padding: 1em 1em;
+    display: grid;
+
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    column-gap: 1em;
+    row-gap: 1em;
+    background-color: #e5e7eb;
+    overflow: hidden;
+}
+
+.product-maincontainer > div {
+    padding-bottom: 1em;
+}
+
+.product-container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.product-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15em;
+    position: relative;
+    padding-top: 1.5em;
+}
+
+.product-picture img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 5px;
+}
+
+.price {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    border-style: solid;
+    padding: 0.2em 0.4em;
+    background-color: black;
+    color: white;
+    letter-spacing: 0.2rem;
+    border-style: none;
+    top: 0.2em;
+    left: 0.2em;
+    font-size: 1rem;
+}
+
+.product-name {
+    height: 3em;
+    padding: 0 1.5em 0 1em;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 0.9em;
+
+}
+
+.product-name p {
+    max-width: 100%;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+
+    text-align: center;
+
+}
+
+.product-quantity {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 2.5em;
+    padding-right: 2em;
+    margin: 0.5em 0;
+}
+
+.product-quantity select{
+    font-family: 'Roboto', sans-serif;
+    padding: 0.1em 0.3em;
+    cursor: pointer;
+}
+
+.product-quantity p{
+    font-family: 'Roboto', sans-serif;
+    margin-right: 1em;
+    font-size: 0.9rem;
+}
+
+.product-added {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    height: 2.5em;
+    line-height: 2.5em;
+    padding-left: 2.5em;
+    color: #b91c1c;
+    opacity: 0;
+}
+
+.product-addbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2em;
+}
+
+.product-addbutton button{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0.5em 2em;
+    background-color: #082f49;
+    border-style: none;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 0.2em;
+}
+
+.product-addbutton button:hover{
+    transform: translateY(-2px);
+    background-color: #075985;
+}
+
+.ratings-details {
+    padding-left: 2.5em;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 0.5em;
+    font-size: 0.9rem;
+}
+
+.ratings-bar {
+    font-size: 0.9rem;
+    position: relative;
+    height: 2em;
+    margin: 0.5em 3em;
+}
+
+.good-rating {
+    position: absolute;
+    border-style: solid;
+    height: 2em;
+    left: 0;
+    border-radius: 5px;
+    border-right-style: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-width: 2px;
+    background-color: #facc15;
+    color: black;
+    border-color: white;
+}
+
+.bad-rating {
+    position: absolute;
+    border-style: solid;
+    height: 2em;
+    right: 0;
+    border-radius: 5px;
+    border-width: 2px;
+    border-left-style: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: #030712;
+    color: white;
+}
+
+.good-rating-percent-div, .bad-rating-percent-div  {
+    width: 100%;
+}
+
+.good-rating-percent, .bad-rating-percent {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    line-height: 1.8em;
+}

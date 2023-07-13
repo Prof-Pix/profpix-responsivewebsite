@@ -1,0 +1,209 @@
+main {
+    margin: 2em auto;
+    padding: 0 3em;
+    max-width: 1500px;
+    min-height: 85dvh;
+}
+
+.contact-title {
+    font-family: "Inter", sans-serif;
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+    background-color: black;
+    color: white;
+    padding: 0.5em 1em;
+}
+.contact-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2em;
+}
+
+.contact-leftside {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 2rem;
+    border-radius: 5px;
+    border-style: solid;
+    padding: 0.5em;
+    border-width: 1px;
+    max-height: 100%;
+    border-color: #e5e7eb;
+}
+
+.contact-leftside div:nth-child(1) {
+    margin-bottom: 1em;
+    font-size: 0.9rem;
+}
+
+.contact-rightside {
+    min-height: 100%;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5rem;
+}
+
+.contact-rightside div:nth-child(1) {
+
+    margin-bottom: 1em;
+    font-size: 1.5rem;
+}
+
+.contact-rightside div:nth-child(2) {
+
+    font-size: 0.9rem;
+    text-align: justify;
+}
+
+
+.input-contact {
+    margin-bottom: 1em;
+    padding: 1em 0 1em 0.5em;
+    width: 70%;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: #d1d5db;
+}
+
+.input-contact::placeholder {
+    font-family: "Montserrat", sans-serif;
+}
+
+.concern-option {
+    padding: 0.5em 1em;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 1em;
+    width: 70%;
+}
+
+.elaborate-concern {
+    padding: 0.5em 0 10em 0.5em;
+    width: 100%;
+}
+
+.send-concern-button, .sendusamessage-button {
+    padding: 1em 0 1em 0.5em;
+    border-radius: 5px;
+    border-style: none;
+    margin-top: 1em;
+    background-color: #111827;
+    color: white;
+    transition: all 0.15s;
+    width: 50%;
+    cursor: pointer;
+    margin-bottom: 1em;
+}
+
+.send-concern-button:hover, .sendusamessage-button:hover {
+    background-color: #d1d5db;
+    color: black;
+}
+
+.form-send-concern {
+    display: none;
+}
+
+.form-send-concern-active {
+    display: block;
+}
+
+.concern-submitted {
+    margin-top: 0.5em;
+}
+
+@media (max-width: 768px) {
+    .contact-title {
+        padding: 0.5em 0.5em;
+    }
+
+    .contact-details {
+        font-size: 0.8rem;
+    }
+
+    .contact-leftside div:nth-child(1) {
+        font-size: 0.8rem;
+    }
+
+    .contact-rightside div:nth-child(1) {
+        font-size: 1.2rem;
+    }
+
+    .contact-rightside div:nth-child(2) {
+        font-size: 0.8rem;
+    }
+
+    .concern-option {
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 750px) {
+    .contact-details {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-rightside {
+        margin-top: 4em;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .contact-leftside div:nth-child(1) {
+        font-size: 0.75rem;
+    }
+    
+}
+
+@media (max-width: 400px) {
+
+    .contact-title {
+        padding: 0.5em 0.5em;
+    }
+
+    .contact-details {
+        font-size: 0.8rem;
+    }
+
+    
+    .contact-leftside {
+        line-height: 1.7rem;
+    }
+    
+}
+
+@media (max-width: 500px) {
+
+    main {
+        padding: 0 2em;
+    }
+
+    .contact-leftside div:nth-child(1) {
+        font-size: 0.75rem;
+    }
+    
+}
+
+@media (max-width: 375px) {
+
+    .sendusamessage-button, .send-concern-button {
+        font-size: 0.75rem;
+    }
+
+    .concern-option {
+        font-size: 0.7rem;
+    }
+    
+}
+
+
+@media (max-width: 325px) {
+    main {
+        padding: 0 1.25em;
+    }
+    
+    
+}
